@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    color:rgb(61, 60, 60);
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    background-color: #f0eeee;
+    padding: 10%;
+    border-radius: 8px;
+    text-align: center;
+    color: #609dcf;
+  }
+
+  a {
+    display:flex;
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
