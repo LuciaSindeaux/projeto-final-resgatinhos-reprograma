@@ -1,0 +1,27 @@
+.menuContainer {
+    background-color: #f2f0eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 2rem;
+    list-style: none;
+}
+
+.menuLink {
+    text-decoration: none;
+    color: #ce854a;
+    font-size: 1.5rem;   
+}
+
+.menuLogo {
+    max-width: 15%;
+    margin-left: 2%;
+    align-items: center;
+    }
+
+.menuList {
+    gap: 2rem;
+    display: flex;
+}
+

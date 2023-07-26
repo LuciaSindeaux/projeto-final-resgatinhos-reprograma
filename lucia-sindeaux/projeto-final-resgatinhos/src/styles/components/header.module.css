@@ -1,0 +1,18 @@
+.headerContainer {
+    background-image: url("../../assets/background_gatinhos.png") ;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    }
+
+.headerTitle {
+    color:#f2f0eb;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.headerContent {
+    color:#f2f0eb;
+    font-size: 1.5rem;
+    padding: 2rem;
+}

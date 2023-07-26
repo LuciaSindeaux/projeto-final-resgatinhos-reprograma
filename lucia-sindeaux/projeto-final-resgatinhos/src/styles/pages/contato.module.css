@@ -1,0 +1,34 @@
+.form {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formInput {
+    width: 60%;
+    padding: 0.6rem 2rem;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+.formButton {
+    width: 60%;
+    padding: 0.6rem 2rem;
+    background-color: #4caf50;
+    color: #f2f0eb;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formButton:hover {
+    background-color: #4ca;
+}
+

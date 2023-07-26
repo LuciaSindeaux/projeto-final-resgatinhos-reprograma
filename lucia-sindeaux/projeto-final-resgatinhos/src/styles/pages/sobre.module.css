@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+  }
+  
+  .sobreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 10rem;
+    font-size: 1.5rem;
+  }
+  
+  .photoProfile {
+    width: 90%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 16px;
+    padding-top: 1rem;
+  }
