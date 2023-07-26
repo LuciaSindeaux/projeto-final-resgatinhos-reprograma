@@ -15,10 +15,45 @@ Para conhecer mais sobre doação de notas fiscais para ongs pelo nota paraná [
 
 O Resgatinhos foi desenvolvido com as seguintes tecnologias:
 
-- [x] **ReactJS** Foi a tecnologia escolhida para criar todo o site da ONG.
-- [x] **Axios**  É usado para consumir uma API pública que mostra os gatinhos para apadrinhamento.
-- [x] **Firebase** É usado para salvar as NF's enviadas e o usuário poder entrar em contato com a ONG.
+- [x] **ReactJS** Foi o framework escolhido para criar todo o site da ONG;
+- [x] **Vite** Ferramenta de estrutura utilizada com react;
+- [x] **NPM** Gerenciador de pacotes utilizado no projeot;
+- [x] **Axios**  É utilizado para consumir uma API pública que mostra os gatinhos para apadrinhamento;
+- [x] **Firebase** É utilizado para salvar as NF's enviadas e o usuário poder entrar em contato com a ONG;
+- [x] **React router dom** Dependência usada para criar rotas no Reactjs;
+- [x] **React-Icons** Dependência usada para colocar icones lindos no projeto;
+- [x] **Vercel**  É utilizado para Hospedagem para a aplicação, fiz o deploy integrado com o github.
 
+ 
+# Como rodar o projeto localmente
+Siga o passo a passo a seguir:
+<table>
+  <thead>
+<th>Passo	</th>
+<th>Comando</th>
+  </thead>
+    <tbody>
+    <tr>
+      <td>Faça o fork do projeto</td>
+	    <td>botão de forkar</td>
+    </tr>
+      <tr>
+      <td>Faça o clone do projeto</td>
+	    <td>git clone</td>
+    </tr>
+	 <tr>
+      <td>Instale as dependências após acessar a pasta projeto</td>
+	    <td>npm i</td>
+    </tr>
+    <tr>
+      <td>Crie as variaveis de ambiente para integrar com Firebase e inclua os valores da sua conta	conforme</td>
+	    <td> Conforme .env.example do projeto</td>
+    </tr>
+   <tr>
+      <td>Rode o projeto na sua máquina</td>
+	    <td> npm run dev</td>
+    </tr>	
+    </table>
 
 # Quem sou eu?
 
