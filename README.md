@@ -1,3 +1,5 @@
+![](./lucia-sindeaux/projeto-final-resgatinhos/src/assets/resgatinhos.png)
+
 # Resgatinhos - Digitalizando a Doação de Notas Fiscais e Apadrinhamento de Gatinhos
 
 Bem-vindo ao projeto Resgatinhos! Este projeto é o resultado da minha conclusão do curso de Front-End e foi criado com o propósito de demonstrar todos os conhecimentos que adquiri ao longo do programa. A ONG Resgatinhos, embora fictícia, tem uma missão importante: digitalizar a doação de notas fiscais e facilitar o apadrinhamento de gatinhos, além de proporcionar maior visibilidade e credibilidade para o trabalho da organização, conquistando assim, futuros apoiadores.
