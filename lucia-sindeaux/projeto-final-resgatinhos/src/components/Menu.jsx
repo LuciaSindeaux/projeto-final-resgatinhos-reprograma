@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Logo from "../assets/resgatinhos.png";
-
 import styles from "../styles/components/menu.module.css";
 
 const Menu = () => {
@@ -10,16 +9,16 @@ const Menu = () => {
     <img src={Logo} alt="Logo" className={styles.menuLogo} />
     <div className={styles.menuList}>
       <li>
-        <Link className={styles.menuLink} to="/"> Home </Link>
+        <Link className={styles.menuLink} to="/"> Conheça a ong </Link>
       </li>
       <li>
-        <Link className={styles.menuLink} to="/sobre"> Sobre </Link>
+        <Link className={styles.menuLink} to="/noticias"> Notícias </Link>
       </li>
       <li>
         <Link className={styles.menuLink} to="/apadrinhamento"> Apadrinhamento </Link>
       </li>
       <li>
-        <Link className={styles.menuLink} to="/contato"> Envie sua nota fiscal! </Link>
+        <Link className={styles.menuLink} to="/comoAjudar"> Como ajudar </Link>
       </li>
       </div>
     </nav></>

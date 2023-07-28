@@ -5,18 +5,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.formInput {
+  }
+  
+  .formInput {
     width: 60%;
     padding: 0.6rem 2rem;
-    border: 1px solid #CCC;
+    border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 1rem;
     resize: vertical;
-}
-
-.formButton {
+  }
+  
+  .formButton {
     width: 60%;
     padding: 0.6rem 2rem;
     background-color: #4caf50;
@@ -26,9 +26,124 @@
     font-size: 1rem;
     border-radius: 4px;
     cursor: pointer;
-}
-
-.formButton:hover {
+  }
+  
+  .formButton:hover {
     background-color: #4ca;
-}
+  }
+  
+  .ajudar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    gap: 2rem;
+    overflow: auto;
+    justify-content: center;
+    padding-top: 1rem;
+    padding: 2rem;
+  }
+  
+  .formasAjuda {
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 1.3rem;
+    text-align: justify;
+    align-items: center;
+    background-color: #f9b884;
+  }
+  
+  .notaParana {
+    display: flex;
+    margin: 2rem;
+    background-color: rgba(250, 235, 215, 0.543);
+    height: 50vh;
+  }
+  
+  .doeNota {
+    color: #f9b984;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
 
+  @media (max-width: 414px) {
+    .formInput {
+      width: 80%;
+    }
+  
+    .formButton {
+      width: 80%;
+      font-size: 0.8rem;
+    }
+  
+    .ajudar {
+      grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
+    }
+  
+    .formasAjuda {
+      font-size: 0.8rem;
+    }
+  
+    .notaParana {
+      margin: 1rem;
+    }
+  }
+  
+
+  @media (max-width: 767px) {
+ 
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .formInput {
+      width: 70%;
+    }
+  
+    .formButton {
+      width: 70%;
+      font-size: 0.9rem;
+    }
+  
+    .ajudar {
+      grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
+    }
+  
+    .formasAjuda {
+      font-size: 0.9rem;
+    }
+  
+    .notaParana {
+      margin: 1.5rem;
+    }
+  }
+  
+
+  @media (min-width: 1024px) and (max-width: 1439px) {
+
+  }
+  
+
+  @media (min-width: 1440px) {
+    .formInput {
+      width: 50%;
+    }
+  
+    .formButton {
+      width: 50%;
+      font-size: 1.2rem;
+    }
+  
+    .ajudar {
+      grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    }
+  
+    .formasAjuda {
+      font-size: 1.2rem;
+    }
+  
+    .notaParana {
+      margin: 2rem;
+    }
+  }
+  

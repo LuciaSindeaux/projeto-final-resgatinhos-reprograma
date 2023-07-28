@@ -1,38 +1,91 @@
+/* Common styles for all screen sizes */
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.newsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.newsColumn {
+  flex: 1;
+  max-width: 30%;
+  margin: 1rem;
+}
+
+.newsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsCard img {
+  width: 100%;
+  max-height: 40vh;
+  object-fit: cover;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 5px 0px rgba(117, 69, 6, 0.1);
+}
+
+.newsText {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-radius: 5%;
+  padding: 1rem;
+  text-align: justify;
+}
+
+/* Media query for smaller mobile screens (iPhone XR) */
+@media (max-width: 414px) {
+  .newsColumn {
+    max-width: 100%;
   }
-  
-  .sobreContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    padding: 10rem;
-    font-size: 1.5rem;
+
+  .newsCard img {
+    max-height: 30vh;
   }
-  
-  .photoProfile {
-    width: 90%;
-    overflow: hidden;
-    border-radius: 0.5rem;
+
+  .newsText {
+    font-size: 0.9rem;
+    padding: 0.8rem;
   }
-  
-  .textContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+}
+
+/* Media query for mobile screens (up to 767px) */
+@media (max-width: 767px) {
+  /* No specific changes for mobile screens in this example */
+}
+
+/* Media query for tablets and larger screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .newsColumn {
+    max-width: 50%;
   }
-  
-  h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    padding-bottom: 1rem;
+
+  .newsCard img {
+    max-height: 35vh;
   }
-  
-  p {
-    font-size: 16px;
-    padding-top: 1rem;
+
+  .newsText {
+    font-size: 1rem;
+    padding: 1rem;
   }
+}
+
+/* Media query for laptops and larger screens */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  /* No specific changes for laptops in this example */
+}
+
+/* Media query for larger desktop screens */
+@media (min-width: 1440px) {
+  /* No specific changes for larger desktop screens in this example */
+}

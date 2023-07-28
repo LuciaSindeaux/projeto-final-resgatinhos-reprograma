@@ -1,18 +1,78 @@
-.headerContainer {
-    background-image: url("../../assets/background_gatinhos.png") ;   
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
-    }
-
-.headerTitle {
-    color:#f2f0eb;
-    font-size: 4rem;
-    padding: 2rem;
+.headerBackground {
+  background-image: url("../../assets/background_gatinhos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.headerContent {
-    color:#f2f0eb;
-    font-size: 1.5rem;
-    padding: 2rem;
+.headerContainer {
+  color: #f2f0eb;
+  font-size: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerTitle {
+  color: rgb(95, 52, 2);
+  font-size: 6vw; 
+  font-weight: bold;
+  align-items: center;
+}
+
+.headerSubtitle {
+  color: rgb(125, 69, 4);
+  font-size: 2vw; 
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+
+@media (min-width: 768px) {
+  .headerSubtitle {
+    font-size: 1vw; 
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .headerBackground {
+    height: 70vh;
+  }
+
+  .headerTitle {
+    font-size: 3vw; 
+  }
+
+  .headerSubtitle {
+    font-size: 1.5vw; 
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .headerBackground {
+    height: 80vh;
+  }
+
+  .headerTitle {
+    font-size: 4vw; 
+  }
+
+  .headerSubtitle {
+    font-size: 2vw;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
 }

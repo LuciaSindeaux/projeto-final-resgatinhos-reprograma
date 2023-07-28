@@ -13,11 +13,11 @@ const Router = () => {
     <Menu />
     <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/sobre" element={<Sobre />}/>
+        <Route path="/noticias" element={<Sobre />}/>
         <Route path="/apadrinhamento" element={<Apadrinhamento />}/>
-        <Route path="/contato" element={<Contato />}/>
+        <Route path="/comoAjudar" element={<Contato />}/>
     </Routes>
-    <Footer content="Feito com ♡ por Lúcia Sindeaux, durante o projeto guiado no módulo de ReactJS da reprograma."/>
+    <Footer content="Feito com ♡ por Lúcia Sindeaux"/>
     </BrowserRouter>
   )
 }
