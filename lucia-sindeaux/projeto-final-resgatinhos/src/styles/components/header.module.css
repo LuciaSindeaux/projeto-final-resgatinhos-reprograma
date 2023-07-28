@@ -76,3 +76,19 @@
     padding-right: 7rem;
   }
 }
+
+@media (min-width: 360px) {
+  .headerBackground {
+    height: 60vh;
+  }
+
+  .headerTitle {
+    font-size: 6vw; 
+  }
+
+  .headerSubtitle {
+    font-size: 4vw; 
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
