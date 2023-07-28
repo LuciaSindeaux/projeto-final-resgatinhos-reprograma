@@ -10,7 +10,7 @@
 
 .headerContainer {
   color: #f2f0eb;
-  font-size: 3vw;
+  font-size: 2vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,14 +18,14 @@
 
 .headerTitle {
   color: rgb(95, 52, 2);
-  font-size: 6vw; 
+  font-size: 2vw; 
   font-weight: bold;
   align-items: center;
 }
 
 .headerSubtitle {
   color: rgb(125, 69, 4);
-  font-size: 2vw; 
+  font-size: 1vw; 
   padding-left: 3rem;
   padding-right: 3rem;
   padding-top: 1rem;
