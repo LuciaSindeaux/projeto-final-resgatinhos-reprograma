@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.newsCard img {
+.newsCard img  a{
   width: 100%;
   max-height: 40vh;
   object-fit: cover;
@@ -43,7 +43,6 @@
   text-align: justify;
 }
 
-/* Media query for smaller mobile screens (iPhone XR) */
 @media (max-width: 414px) {
   .newsColumn {
     max-width: 100%;
@@ -59,12 +58,12 @@
   }
 }
 
-/* Media query for mobile screens (up to 767px) */
+
 @media (max-width: 767px) {
-  /* No specific changes for mobile screens in this example */
+
 }
 
-/* Media query for tablets and larger screens */
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .newsColumn {
     max-width: 50%;
@@ -80,12 +79,12 @@
   }
 }
 
-/* Media query for laptops and larger screens */
+
 @media (min-width: 1024px) and (max-width: 1439px) {
-  /* No specific changes for laptops in this example */
+
 }
 
-/* Media query for larger desktop screens */
+
 @media (min-width: 1440px) {
-  /* No specific changes for larger desktop screens in this example */
+
 }
