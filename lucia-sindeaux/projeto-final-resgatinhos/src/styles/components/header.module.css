@@ -88,6 +88,9 @@
 
   .headerSubtitle {
     font-size: 3vmin;
-    max-width: 100%
+    max-width: 70%;
+    text-align: center;
+    padding-left: 1vh;
+    padding-right: 1vh;
   }
 }
