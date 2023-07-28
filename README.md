@@ -1,4 +1,6 @@
-# Resgatinhos - Digitalizando a Doação de Notas Fiscais e Apadrinhamento de Gatinhos
+# Resgatinhos - Digitalizando a doação de notas giscais e apadrinhamento de gatinhos
+
+![](./lucia-sindeaux/projeto-final-resgatinhos/src/assets/resgatinhos.png)
 
 Bem-vindo ao projeto Resgatinhos! Este projeto é o resultado da minha conclusão do curso de Front-End e foi criado com o propósito de demonstrar todos os conhecimentos que adquiri ao longo do programa. A ONG Resgatinhos, embora fictícia, tem uma missão importante: digitalizar a doação de notas fiscais e facilitar o apadrinhamento de gatinhos, além de proporcionar maior visibilidade e credibilidade para o trabalho da organização, conquistando assim, futuros apoiadores.
 
@@ -13,21 +15,22 @@ Para conhecer mais sobre doação de notas fiscais para ongs pelo nota paraná [
 
 O Resgatinhos foi desenvolvido com as seguintes tecnologias:
 
-- [x] **ReactJS** foi a tecnologia escolhida para criar todo o site da ONG.
-- [x] **Axios**  foi usado para consumir uma API pública que mostra os gatinhos para apadrinhamento.
-- [x] **Firebase**  foi usado para salvar as NF's enviadas e o usuário poder entrar em contato com a ONG.
+- [x] **ReactJS** Foi a tecnologia escolhida para criar todo o site da ONG.
+- [x] **Axios**  É usado para consumir uma API pública que mostra os gatinhos para apadrinhamento.
+- [x] **Firebase** É usado para salvar as NF's enviadas para doação e também o usuário pode entrar em contato com a ONG através de um formulário. 
 
 
-### Quem sou eu?
+# Quem sou eu?
 
 Olá! Meu nome é Lúcia e sou estudante de Front-End na Reprograma e sou apaixonada por tecnologia! Atualmente, estou cursando Análise e Desenvolvimento de Sistemas e trabalho com QA Jr (a reprograma foi essencial para eu conseguir esse emprego) onde tenho a oportunidade de aprender muito sobre Desenvolvimento de software, Testes e metodologias ágeis. 
 Meu objetivo é aprimorar minhas habilidades em tecnologia e me tornar um profissional altamente qualificada. Dedico meu tempo livre para estudar e praticar novas tecnologias para me manter atualizada com as últimas tendências do mercado.
 
 
-#### Me encontre nesses lugares
+# Me encontre nesses lugares
 
 Ficou interessado no projeto ou tem alguma dúvida? Se conecte comigo nessas redes:
 
 - [E-mail](luciasindeaux@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/luciasindeaux)
 - [GitHub](https://github.com/LuciaSindeaux)
+
