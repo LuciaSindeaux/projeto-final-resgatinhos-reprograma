@@ -22,10 +22,11 @@
 @media (min-width: 1024px) {
   .cardsContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 2rem;
     padding-right: 5rem;
   }
+
 
   .cats {
     display: grid;
