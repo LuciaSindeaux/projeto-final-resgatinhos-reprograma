@@ -37,7 +37,7 @@
 
 @media (min-width: 768px) {
   .headerSubtitle {
-    font-size: 1vw; 
+    font-size: 2vw; 
     padding-left: 5rem;
     padding-right: 5rem;
   }
