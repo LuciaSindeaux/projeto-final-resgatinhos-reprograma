@@ -77,7 +77,7 @@
   }
 }
 
-@media (min-width: 360px) {
+@media (max-width: 500px) {
   .headerBackground {
     height: 60vh;
   }
