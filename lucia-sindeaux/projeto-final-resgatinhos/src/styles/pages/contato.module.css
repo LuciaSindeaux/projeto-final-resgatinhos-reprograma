@@ -67,7 +67,7 @@
   }
   
 
-  @media (max-width: 414px) {
+  @media (max-width: 500px) {
     .formInput {
       width: 80%;
     }
@@ -147,3 +147,11 @@
     }
   }
   
+  @media (max-width: 500px) {
+    .doeNota {
+      font-size: 1.3vh;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+   }
