@@ -6,7 +6,7 @@ const Sobre = () => {
     <>
       <Header 
       title="Notícias do Mundo Pet no Paraná"
-      subtitle="Descubra as histórias mais encantadoras e emocionantes do mundo dos animais no Paraná! Acompanhe as aventuras dos nossos amigos de quatro patas, as adoções que mudam vidas, e as iniciativas inspiradoras que estão tornando o estado ainda mais pet-friendly. Fique por dentro das últimas novidades e acontecimentos que aquecem nossos corações peludos." />
+      subtitle="Aqui você fica informado sobre notícias que envolvem nossos amigos de quatro patas do estado do Paraná!" />
       <div className={styles.newsContainer}>
         <div className={styles.newsColumn}>
           <div className={styles.newsCard}>
