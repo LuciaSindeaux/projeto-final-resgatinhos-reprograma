@@ -1,5 +1,5 @@
 
-# Resgatinhos - Digitalizando a doação de notas giscais e apadrinhamento de gatinhos
+# Resgatinhos - Amor em patas
 
 
 ![](./lucia-sindeaux/projeto-final-resgatinhos/src/assets/resgatinhos.png)
@@ -15,6 +15,12 @@ O objetivo central do projeto é permitir que os apoiadores da ONG Resgatinhos c
 
 Para conhecer mais sobre doação de notas fiscais para ongs pelo nota paraná [clique aqui](https://www.notaparana.pr.gov.br/Pagina/Doacao-notas-fiscais).
 
+# Páginas, componentes e rotas
+O site possuí 4 páginas: Home, Sobre, Apadrinhamento e Contato e 3 componentes Menu, Footer e Header.
+
+![](./lucia-sindeaux/projeto-final-resgatinhos/src/assets/rotas_projeto.png)
+
+
 # Tecnologias usadas no projeto
 
 O Resgatinhos foi desenvolvido com as seguintes tecnologias:
@@ -23,7 +29,6 @@ O Resgatinhos foi desenvolvido com as seguintes tecnologias:
 - [x] **ReactJS** Foi a tecnologia escolhida para criar todo o site da ONG.
 - [x] **Axios**  É usado para consumir uma API pública que mostra os gatinhos para apadrinhamento.
 - [x] **Firebase** É usado para salvar as NF's enviadas para doação e também o usuário pode entrar em contato com a ONG através de um formulário. 
-=======
 - [x] **ReactJS** Foi o framework escolhido para criar todo o site da ONG;
 - [x] **Vite** Ferramenta de estrutura utilizada com react;
 - [x] **NPM** Gerenciador de pacotes utilizado no projeot;
