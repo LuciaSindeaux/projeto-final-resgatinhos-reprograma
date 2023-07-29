@@ -67,8 +67,9 @@
     padding-right: 1rem;
   }
   
-  p {
+  .doeNota  p {
     flex: 1;
+    padding: 1rem 1rem;
   }
 
   @media (max-width: 500px) {
