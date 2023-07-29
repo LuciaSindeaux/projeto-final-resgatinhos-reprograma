@@ -34,8 +34,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
     gap: 2rem;
-    padding: 3rem;
-    padding-top: 0.5rem;
+    padding: 0.5rem 5rem 2rem 0.5rem;
     width: 25rem;
     height: 30rem;    
   }
