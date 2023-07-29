@@ -18,7 +18,7 @@ Para conhecer mais sobre doação de notas fiscais para ongs pelo nota paraná [
 # Páginas, componentes e rotas
 O site possuí 4 páginas: Home, Sobre, Apadrinhamento e Contato e 3 componentes Menu, Footer e Header.
 
-![](./lucia-sindeaux/projeto-final-resgatinhos/src/assets/rotas_projeto.png)
+<img src="./lucia-sindeaux/projeto-final-resgatinhos/src/assets/rotas_projeto.png" width="250px"/>
 
 
 # Tecnologias usadas no projeto
