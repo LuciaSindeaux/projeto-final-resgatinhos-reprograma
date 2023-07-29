@@ -15,7 +15,7 @@ Descubra como fazer parte dessa missão de resgatar vidas e construir futuros na
       <div className={styles.homeContainer}>
         <div className={styles.cardContainer}>
           <Cat size={150} color="#f6ac71" weight="thin" />
-          <h2 className={styles.cardTitle}>Missão</h2>
+          <h2 className={styles.cardTitle}>MISSÃO</h2>
           <p className={styles.cardDescription}>
             Resgatar, proteger e promover o bem-estar de animais em situação de
             vulnerabilidade, proporcionando-lhes cuidados adequados, abrigo
@@ -24,7 +24,7 @@ Descubra como fazer parte dessa missão de resgatar vidas e construir futuros na
         </div>
         <div className={styles.cardContainer}>
           <Fingerprint size={150} color="#f6ac71" weight="thin" />
-          <h2 className={styles.cardTitle}>Valores</h2>
+          <h2 className={styles.cardTitle}>VALORES</h2>
           <p className={styles.cardDescription}>
             Somos comprometidos com a causa animal, dedicando nossos esforços
             para garantir seu bem-estar e proteção.
@@ -32,10 +32,10 @@ Descubra como fazer parte dessa missão de resgatar vidas e construir futuros na
         </div>
         <div className={styles.cardContainer}>
           <PawPrint size={150} color="#f6ac71" weight="thin" />
-          <h2 className={styles.cardTitle}>Visão</h2>
+          <h2 className={styles.cardTitle}>VISÃO</h2>
           <p className={styles.cardDescription}>
-            construir um mundo onde todos os animais, especialmente gatos, sejam
-            tratados com compaixão e respeito, onde não existam animais
+            Construir um mundo em que todos os animais, especialmente gatos,
+            sejam tratados com compaixão e respeito, em que não existam animais
             abandonados ou sofrendo.
           </p>
         </div>
