@@ -1,4 +1,10 @@
 
+.menuLink.active {
+  color: #f2f0eb; 
+  background-color: #f9b884; 
+  padding: 4px;
+}
+
 .menuContainer {
     background-color: #f2f0eb;
     display: flex;

@@ -67,6 +67,9 @@
     padding-right: 1rem;
   }
   
+  p {
+    flex: 1;
+  }
 
   @media (max-width: 500px) {
     .formInput {

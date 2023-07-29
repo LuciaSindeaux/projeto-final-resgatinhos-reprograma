@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Header
-        title="Conheça a Resgatinhos"
+        title="Quem somos"
         subtitle="Sonhamos com um mundo onde todos os animais, especialmente gatos, sejam tratados com compaixão e respeito. Queremos ver uma realidade onde nenhum animal sofra ou seja abandonado, onde cada um deles tenha a oportunidade de encontrar um lar amoroso e seguro. Nossa visão é de um futuro melhor para essas criaturas adoráveis, onde a proteção animal seja uma prioridade e a adoção responsável seja a norma.
 A construção desse futuro depende de cada um de nós. Nossa ONG recebe de braços abertos novos voluntários que desejem contribuir para essa nobre causa. Com a sua colaboração, podemos resgatar mais vidas, oferecer cuidados essenciais e encontrar lares para esses animais tão especiais.
 Descubra como fazer parte dessa missão de resgatar vidas e construir futuros navegando em nosso site. Contamos com você nessa jornada de amor e dedicação aos animais."
