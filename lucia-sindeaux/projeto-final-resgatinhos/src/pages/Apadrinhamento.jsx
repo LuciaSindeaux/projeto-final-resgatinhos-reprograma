@@ -38,7 +38,7 @@ const Apadrinhamento = () => {
       </p>
       <p className={styles.headerSteps}><b>Passo 2:</b> Não temos valor mínimo para apadrinhamento, deixe o seu coração decidir. E você pode apadrinhar quantos gatinhos quiser, basta nos informar, ok?
       </p>  
-      <p className={styles.headerSteps}><b>Passo 3:</b> Envie um e-mail para contato@resgatinhos.com.br se você deseje se tornar madrinha ou padrinho de um ou mais gatinhos. Entaremos em contato com você ao recebermos as suas respostas.
+      <p className={styles.headerSteps}><b>Passo 3:</b> Envie um e-mail para <b>contato@resgatinhos.com.br</b> se você deseje se tornar madrinha ou padrinho de um ou mais gatinhos. Entaremos em contato com você assim que recebermos o e-mail.
       </p>
       </div>
         <div className={styles.cardsContainer}>
