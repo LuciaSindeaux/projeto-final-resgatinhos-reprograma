@@ -41,6 +41,7 @@ const Contato = () => {
       email: email,
       texto: mensagem,
       notafiscal: notafiscal,
+      cupomfiscal: cupomfiscal
     });
 
     setNome("");
