@@ -1,6 +1,9 @@
 
 # Resgatinhos - Amor em patas
 
+O site está no ar na vercel atráves desse link: https://projeto-final-resgatinhos-reprograma.vercel.app/
+
+
 
 ![](./lucia-sindeaux/projeto-final-resgatinhos/src/assets/resgatinhos.png)
 
