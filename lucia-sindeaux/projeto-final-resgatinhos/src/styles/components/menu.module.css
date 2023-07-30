@@ -1,91 +1,103 @@
-
-.menuLink.active {
-  color: #f2f0eb; 
-  background-color: #f9b884; 
-  padding: 4px;
+.menuContainer {
+  background-color: #f2f0eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  list-style: none;
 }
 
-.menuContainer {
-    background-color: #f2f0eb;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    list-style: none;
+.menuLink {
+  text-decoration: none;
+  color: #ce854a;
+  font-size: 1.5rem;
+}
+
+.menuLogo {
+  max-width: 15%;
+  margin-left: 2%;
+  align-items: center;
+}
+
+.menuList {
+  gap: 2rem;
+  display: flex;
+}
+
+@media (max-width: 414px) {
+  .menuContainer {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
+
+  .menuLogo {
+    max-width: 50%;
+    margin-bottom: 1rem;
+  }
+
   .menuLink {
-    text-decoration: none;
-    color: #ce854a;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menuContainer {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .menuLogo {
+    order: -1;
+    width: 60%; 
+    max-width: 200px; 
+    margin-bottom: 2rem; 
+  }
+
+  .menuLink {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
   
+}
+
+@media (min-width: 1440px) {
+  .menuContainer {
+    padding: 2rem;
+  }
+
   .menuLogo {
     max-width: 15%;
-    margin-left: 2%;
-    align-items: center;
   }
-  
+
+  .menuLink {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .menuContainer {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menuLogo {
+    max-width: 60%; 
+    max-height: 80px; 
+    margin-bottom: 1rem; 
+  }
+
+  .menuLink {
+    font-size: 1rem;
+  }
+
   .menuList {
     gap: 2rem;
     display: flex;
   }
-  
-
-  @media (max-width: 414px) {
-    .menuContainer {
-      padding: 1rem;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .menuLogo {
-      max-width: 50%;
-      margin-bottom: 1rem;
-    }
-  
-    .menuLink {
-      font-size: 1rem;
-    }
-  }
-  
- 
-  @media (max-width: 767px) {
-
-  }
-  
- 
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .menuContainer {
-      padding: 1.5rem;
-    }
-  
-    .menuLogo {
-      max-width: 10%;
-    }
-  
-    .menuLink {
-      font-size: 1.2rem;
-    }
-  }
-  
- 
-  @media (min-width: 1024px) and (max-width: 1439px) {
-
-  }
-  
-
-  @media (min-width: 1440px) {
-    .menuContainer {
-      padding: 2rem;
-    }
-  
-    .menuLogo {
-      max-width: 15%;
-    }
-  
-    .menuLink {
-      font-size: 1.5rem;
-    }
-  }
-  
+}
