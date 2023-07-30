@@ -5,8 +5,8 @@ const Sobre = () => {
   return (
     <>
       <Header 
-      title="Notícias"
-      subtitle="Aqui você fica informado sobre notícias que envolvem nossos amigos de quatro patas do estado do Paraná!" />
+      title="Notícias do mundo pet"
+      subtitle="Aqui você fica informado sobre notícias que envolvem nossos amigos de quatro patas no estado do Paraná!" />
       <div className={styles.newsContainer}>
         <div className={styles.newsColumn}>
           <div className={styles.newsCard}>
