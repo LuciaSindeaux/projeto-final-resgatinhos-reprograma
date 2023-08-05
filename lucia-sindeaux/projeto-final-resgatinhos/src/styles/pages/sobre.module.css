@@ -60,6 +60,16 @@ a {
     font-size: 0.9rem;
     padding: 0.8rem;
   }
+
+  .newsCard img {
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 5px 0px rgba(117, 69, 6, 0.1);
+  }
+  
 }
 
 
@@ -81,14 +91,42 @@ a {
     font-size: 1rem;
     padding: 1rem;
   }
+
+  .newsCard img {
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 5px 0px rgba(117, 69, 6, 0.1);
+  }
+  
 }
 
 
 @media (min-width: 1024px) and (max-width: 1439px) {
+  .newsCard img {
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 5px 0px rgba(117, 69, 6, 0.1);
+  }
+  
 
 }
 
 
 @media (min-width: 1440px) {
+  .newsCard img {
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 5px 0px rgba(117, 69, 6, 0.1);
+  }
+  
 
 }
