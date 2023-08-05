@@ -3,7 +3,7 @@ import Logo from "../assets/resgatinhos.png";
 import styles from "../styles/components/menu.module.css";
 
 const Menu = () => {
-  // Get the current location using the useLocation hook from react-router-dom
+
   const location = useLocation();
 
   return (
