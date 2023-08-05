@@ -31,7 +31,7 @@ const Sobre = () => {
         <div className={styles.newsColumn}>
           <div className={styles.newsCard}>
             <div className={styles.newsText}>
-              <h4>UFPR acolhe cães e gatos abandonados; veja como adotar</h4>
+              <h4>UFPR acolhe cães e gatos abandonados: Clique na notícia e veja como adotar</h4>
             </div>
             <a href="https://massanews.com/noticia/parana/curitiba/ufpr-acolhe-caes-e-gatos-abandonados-veja-como-adotar/" target="_blank">
               <img src="https://cdnmassanews.azureedge.net/wordpressmassanews/2023/02/ufpr-acolhe-caes-e-gatos.jpg" alt="materia sobre ufpr acolher caes e gatos abandonados" />
