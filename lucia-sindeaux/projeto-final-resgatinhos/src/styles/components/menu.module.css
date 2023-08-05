@@ -30,7 +30,7 @@
   display: flex;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .menuContainer {
     padding: 1rem;
     flex-direction: column;
@@ -85,7 +85,7 @@
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 414px) {
   .menuContainer {
     padding: 1rem;
     flex-direction: column;

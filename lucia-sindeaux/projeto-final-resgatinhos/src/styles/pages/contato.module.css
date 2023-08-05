@@ -159,6 +159,26 @@
       padding-right: 1rem;
     }
     
+    .formInput {
+      width: 80%;
+    }
+  
+    .formButton {
+      width: 80%;
+      font-size: 0.8rem;
+    }
+  
+    .ajudar {
+      grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
+    }
+  
+    .formasAjuda {
+      font-size: 0.8rem;
+    }
+  
+    .notaParana {
+      margin: 1rem;
+    }
    }
 
 
