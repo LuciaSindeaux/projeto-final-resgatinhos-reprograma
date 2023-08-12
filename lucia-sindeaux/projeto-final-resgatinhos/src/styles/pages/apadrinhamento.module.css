@@ -9,7 +9,6 @@
   padding: 2rem;
 }
 
-
 .headerSteps {
   color: #ffffff;
   font-size: 1.5rem;
@@ -19,16 +18,13 @@
   background-color: #f9b884;
 }
 
-
 @media (min-width: 1024px) {
   .cardsContainer {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 2rem;
     padding-right: 5rem;
-    
   }
-
 
   .cats {
     display: grid;
@@ -36,17 +32,15 @@
     gap: 2rem;
     padding: 0.5rem 5rem 2rem 0.5rem;
     width: 25rem;
-    height: 30rem;    
+    height: 30rem;
   }
 }
-
 
 @media (min-width: 1600px) {
   .cardsContainer {
     padding: 5rem;
   }
 }
-
 
 @media (max-width: 767px) {
   .cardsContainer {
@@ -57,14 +51,12 @@
   .cats {
     width: 100%;
     padding: 1rem;
+    gap: 1rem; 
   }
 }
-
 
 @media (max-width: 480px) {
   .headerSteps {
     font-size: 0.9rem;
   }
-
 }
-
